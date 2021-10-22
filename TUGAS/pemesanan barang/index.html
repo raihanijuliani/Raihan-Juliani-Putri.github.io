@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="logo">
+                <li>
+                    <a href="">site name</a>
+                </li>
+            </ul>
+
+            <ul class="menu-ul">
+                <li> 
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/eveents">Current Events</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact us</a>
+                </li>
+            </ul>
+
+            <ul class="icon-ul">
+                <li>
+                    <i class="bi bi-search"></i>
+                </li>
+                <li class="cart">
+                    <i class="bi bi-cart"></i>
+                    <p>cart(1)</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <h1>Your Cart</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <td class="col-head">Item</td>
+                        <td class="col-head">Price</td>
+                        <td class="col-head">Quality</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="img-jacket">
+                            <img width="250" src="img/jacket.jpg" alt="">
+                            <p>Jacket <br> Size Small</p>
+                        </td>
+                        <td>
+                            <b> $50.00</b>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="col-head" colspan="3" align="right">Subtotal: <b>$50.00</b></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+
+        <aside>
+            <h2>Summary ( 1 item )</h2>
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td align="right">$50.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td align="right">-</td>
+                </tr>
+                <tr>
+                    <td>Est. US</td>
+                    <td align="right">-</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td align="right">$50.00</td>
+                </tr>
+            </table>
+            <a class="btn-checkout" href="checkout.html">checkout</a>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="baris">
+            <a href="">Site Name</a>
+            <a href="">Category</a> |
+            <a href="">Category</a> |
+            <a href="">Category</a>
+            <a href="">Stay In Touch</a>
+        </div>
+        <div class="baris">
+            <i class="bi bi-badge-ar-fill"></i>
+            <i class="bi bi-badge-ar-fill"></i>
+            <i class="bi bi-badge-ar-fill"></i>
+            <div class="input-subscribe" >
+                <input type="text" placeholder="Enter Email">
+                <p>Subscribe</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
