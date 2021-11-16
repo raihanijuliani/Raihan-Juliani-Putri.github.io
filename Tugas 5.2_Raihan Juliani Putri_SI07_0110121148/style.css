@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  
+}
+.green{
+    background-color: lightgreen;
+    height: 200px;
+}
+
+.yellow{
+    background-color: yellow;
+height: 300px;
+width: 20%;
+}
+
+.orange{
+    background-color: orange;
+    height: 300px;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.blue{
+    background-color: lightblue;
+    height: 300px;
+    width: 75%;
+    margin-left: 
+    5%;
+}
+
+.isi{
+ float: left;
+ margin-top: 2%;
+}
+
+.kisi{
+    float: left;
+    margin-top: 2%;
+}
