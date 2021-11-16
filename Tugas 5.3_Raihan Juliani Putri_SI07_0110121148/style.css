@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 22%;
+}
+
+.orange{
+    background-color: orange;
+    height: 100px;
+    width: 75%;
+    margin-left: 
+    3%;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+    height: 700px;
+    width: 22%;
+}
+
+.gray{
+    background-color: gray;
+    height: 700px;
+    width: 50%;
+    margin-left: 3%;
+}
+
+    .lightblue{
+        background-color: lightskyblue;
+        height: 700px;
+        width: 22%;
+        margin-left: 
+        3%;
+    }
+
+    .blue{
+        background-color: blue;
+        height: 100px;
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    .row{
+        float: left;
+        margin-bottom: 1%;
+    }
+    .row-2 {
+        float: left;
+        
+    }
+    .row-3{
+        float: left;
+
+    }
