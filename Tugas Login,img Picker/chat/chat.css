@@ -1,0 +1,29 @@
+#box-input {
+    display: grid;
+    height: 50%;
+    align-items: end;
+}
+
+.chat {
+    width: 78%;
+    height: 400px;
+    background-color: rgb(173, 215, 231);
+}
+
+#Ichdachat {
+    height: 50%;
+}
+
+input {
+    width: 83%;
+    height: 40px;
+}
+
+button {
+    width: 15%;
+    height: 40px;
+}
+
+.result {
+    width: 100%;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/img.css">
+    <title>Pilih Gambar</title>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container-image">
+            <h1>Image Picker</h1>
+            <div class="select-img">
+                <select name="select_img" id="select_img" onchange="gantiGambar();">
+                    <option id="g1" value="1">Kota Bandung</option>
+                    <option id="g2" value="2">Kota Bekasi</option>
+                    <option id="g3" value="3">Kota Bogor</option>
+                    <option id="g4" value="4">Kota Depok</option>
+                    <option id="g5" value="5">Kota Jakarta</option>
+                </select>
+            </div>
+            <div class="change-img" style="margin-top: 40px;">
+                <img id="imgDefault" src="img/Kota Bandung.png" style="width: 200px;">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function gantiGambar() {
+            var getSelect = document.getElementById('select_img').value;
+
+            var g1 = document.getElementById('g1').value;
+            var g2 = document.getElementById('g2').value;
+            var g3 = document.getElementById('g3').value;
+            var g4 = document.getElementById('g4').value;
+            var g5 = document.getElementById('g5').value;
+
+            var imgDefault = document.getElementById('imgDefault');
+
+            if (getSelect == g1) {
+                imgDefault.src = 'img/Kota Bandung.png';
+                alert('This is the Bandung city logo');
+            }
+            else if (getSelect == g2) {
+                imgDefault.src = 'img/Kota Bekasi.png';
+                alert('This is the Bekasi city logo');
+            }
+            else if (getSelect == g3) {
+                imgDefault.src = 'img/Kota Bogor.png';
+                alert('This is the Bogor city logo');
+            }
+            else if (getSelect == g4) {
+                imgDefault.src = 'img/Kota Depok.png';
+                alert('This is the Depok city logo');
+            } else if (getSelect == g5) {
+                imgDefault.src = 'img/Kota Jakarta.png';
+                alert('This is the Jakarta city logo');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
